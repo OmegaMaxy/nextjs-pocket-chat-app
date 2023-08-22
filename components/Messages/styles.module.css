@@ -1,0 +1,21 @@
+/* width */
+.messageBox::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.messageBox::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.messageBox::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 6px;
+    transition: 0.2s
+}
+
+/* Handle on hover */
+.messageBox::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
